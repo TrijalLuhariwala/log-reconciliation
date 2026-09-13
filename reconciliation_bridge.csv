@@ -1,0 +1,5 @@
+step,description,result,reason
+0,Naive count,30,Count of all raw communication-log rows
+1,Apply campaign reporting eligibility,26,Exclude four rows from campaign 9004 because it is approval_awaiting
+2,Reconcile retry chains,22,Count each customer once within a retry family while preserving standalone repeated sends
+Final,Finance target_base,22,Matches Finance target
